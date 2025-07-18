@@ -20,7 +20,7 @@ class SearchItem extends Component {
   }
 
   componentDidMount = async () => {
-    const API_KEY = '76a3b00b83c8438422c7b7eb425b0645'
+    const API_KEY = '3789dd104d0828c59818a535cd5278b0'
     try {
       const response = await fetch(
         `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`,

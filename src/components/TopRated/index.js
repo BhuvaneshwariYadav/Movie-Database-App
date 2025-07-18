@@ -22,7 +22,7 @@ class TopRated extends Component {
   }
 
   getTopRatedData = async () => {
-    const API_KEY = '76a3b00b83c8438422c7b7eb425b0645'
+    const API_KEY = '3789dd104d0828c59818a535cd5278b0'
     const {pageNo} = this.state
     try {
       const response = await fetch(
